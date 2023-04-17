@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-section {
+    background-color: #002ed0;
+    padding: 0 60px;
+    color: #fff;
+}
+
+.hero-wrapper {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 820px;
+}
